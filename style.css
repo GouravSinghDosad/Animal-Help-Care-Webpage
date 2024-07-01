@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+}
+
+#nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw;
+}
+
+#nleft{
+    display: flex;
+    gap: 30px;
+}
+
+#nav a{
+    font-weight: 800;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+#nav #centag{
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10vw;
+    padding: 0vw 10vw;
+}
+
+#help1{
+    width: 12vw;
+}
+
+#help1 p{
+    text-transform: capitalize;
+    font-weight: 800;
+    line-height: 1.2;
+    opacity: .5;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+#help1 #image1{
+    width: 100%;
+    height: 15vw;
+}
+
+#image1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#help2{
+    position: relative;
+    width: 29vw;
+    height: 40vw;
+}
+
+#help2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#help2 p{
+    font-size: 1.5vw;
+    width: 45%;
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: -.1.1vw;
+}
+#help2 h1{
+    position: absolute;
+    top: -10%;
+    left: -15%;
+    font-size: 6vw;
+    font-weight: 400;
+    letter-spacing: -.3vw;
+}
+#visit{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+#circle{
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid gray;
+}
+
+#circle i{
+    color: gray;
+}
+
+#visit h3{
+    color: gray;
+    font-weight: 400;
+}
+
+#motive{
+    margin-top: 2vw;
+    padding: 5vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#motive p{
+    position: relative;
+    right: 0;
+    width: 83%;
+    text-align: right;
+    font-size: 1.5vw;
+}
+#motive h2{
+    padding-top: 3vw;
+}
+#motive span{
+    display: inline-block;
+    width: 88px;
+    height: 39px;
+    margin: 0 5px;
+    margin-bottom: -10px;
+    border-radius: 100px;
+    /* background-color: forestgreen; */
+}
+
+#one{
+  background-image: url(img/1s.jpg);
+  background-size: cover;
+  background-position: 0% 85%;
+}
+
+#two{
+    background-image: url(img/2s.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#three{
+    width: 50%;
+    height: 39%;
+    background-image: url(img/4s.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#pictures{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6vw;
+    padding: 3vw;
+    padding-left: 10vw;
+    padding-right: 12vw;
+}
+
+#pic1{
+    width: 20vw;
+}
+
+#pic1 #picimg{
+    width: 100%;
+    height: 28vw;
+    margin-bottom: 1vw;
+}
+
+#picimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#pic1 h1, #pic2 h1{
+    letter-spacing: -.1vw;
+    font-weight: 700;
+    font-size: 2.3vw;
+}
+
+#pic1 p, #pic2 p{
+    font-size: 15px;
+    margin-top: 10px;
+    opacity: .9;
+}
+
+#pic2{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 25vw;
+}
+
+#pic2 #picimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position:right;
+}
+#pic2 #picimg{
+    width: 100%;
+    height: 38vw;
+    margin-bottom: 1vw;
+}
+
+#banner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 8vw;
+}
+
+#bimg{
+    width: 60%;
+    height: 65vh;
+    background-color: darkturquoise;
+}
+
+#bimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#btext{
+    width: 40%;
+    padding: 0 3vw;
+}
+
+#btext h1{
+    font-size: 2.4vw;
+    /* letter-spacing: -.1vw; */
+    font-weight: 700;
+    line-height: 1;
+}
+#btext #space{
+    padding-left: 4vw;
+}
+
+#btext p{
+    font-size: 1vw;
+    margin-top: 20px;
+    width: 60%;
+}
+
+#last{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-color:azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#last video{
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+#ltext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 9999;
+}
+
+#ltext button{
+    padding: .8vw 1.7vw;
+    font-size: .8vw;
+    border-radius: 100px;
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid rgb(163, 161, 161);
+    color: rgb(99, 97, 97);
+}
