@@ -12,5 +12,3 @@ React to create an interactive and user-friendly interface.
 
 <br>
 
-<img src="/img/dog1.lpg" />
-
